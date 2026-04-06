@@ -13,7 +13,7 @@ print(f'Average value: {average_value(nums_list)}')
 
 
 def two_lists_in_one(list1, list2):
-    return list1 + list2
+    return list(set(list1) & set(list2))
 
 
 l1 = input('Enter words1: ').split()

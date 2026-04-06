@@ -6,7 +6,7 @@ print(check(num))
 
 
 def check1(numbers):
- return {i for i in numbers if i % 2 == 0}
+ return [i for i in numbers if i % 2 == 0]
 
-nums = set(map(int, input("Введіть числа: ").split()))
+nums = list(map(int, input("Введіть числа: ").split()))
 print(check1(nums))
