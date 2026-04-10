@@ -1,0 +1,24 @@
+Олексій Петренко,oleksiy@gmail.com,TeddyBear:2;Lego:1 | Сума: 2100.0 грн
+Марія Коваленко,maria@ukr.net,Car:3 | Сума: 601.5 грн
+Дмитро Іванченко,dmytro@yahoo.com,замовлень немає
+Олексій Петренко,oleksiy@gmail.com,TeddyBear:2;Lego:1 | Сума: 2100.0 грн
+Марія Коваленко,maria@ukr.net,Car:3 | Сума: 601.5 грн
+Дмитро Іванченко,dmytro@yahoo.com,замовлень немає
+Олексій Петренко,oleksiy@gmail.com,TeddyBear:2;Lego:1 | Сума: 2100.0 грн
+Марія Коваленко,maria@ukr.net,Car:3 | Сума: 601.5 грн
+Дмитро Іванченко,dmytro@yahoo.com,замовлень немає
+Олексій Петренко,oleksiy@gmail.com,TeddyBear:2;Lego:1 | Сума: 2100.0 грн
+Марія Коваленко,maria@ukr.net,Car:3 | Сума: 601.5 грн
+Дмитро Іванченко,dmytro@yahoo.com,замовлень немає
+Олексій Петренко,oleksiy@gmail.com,TeddyBear:2;Lego:1 | Сума: 2100.0 грн
+Марія Коваленко,maria@ukr.net,Car:3 | Сума: 601.5 грн
+Дмитро Іванченко,dmytro@yahoo.com,замовлень немає
+Олексій Петренко,oleksiy@gmail.com,TeddyBear:2;Lego:1 | Сума: 2100.0 грн
+Марія Коваленко,maria@ukr.net,Car:3 | Сума: 601.5 грн
+Дмитро Іванченко,dmytro@yahoo.com,замовлень немає
+Олексій Петренко,oleksiy@gmail.com,TeddyBear:2;Lego:1 | Сума: 2100.0 грн
+Марія Коваленко,maria@ukr.net,Car:3 | Сума: 601.5 грн
+Дмитро Іванченко,dmytro@yahoo.com,замовлень немає
+Олексій Петренко,oleksiy@gmail.com,TeddyBear:2;Lego:1 , Сума: 2100.0 грн
+Марія Коваленко,maria@gmail.com,Car:3,  Сума: 601.5 грн
+Дмитро Іванченко,dmitro@gmail.com,замовлень немає
