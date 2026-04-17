@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<h1>TODO LIST</h1>
+
+<form method="POST">
+    <input type="text" name="name" placeholder="Введіть назву задачі..." required>
+    <input type="text" name="description" placeholder="Опис задачі..." required>
+    <input type="date" name="deadline" required>
+    <select name="status" required>
+        <option value="" disabled selected>Виберіть статус:</option>
+        <option value="В прогресі">В прогресі</option>
+        <option value="Зроблено">Зроблено!</option>
+    </select>
+    <button type="submit">Створити задачу</button>
+</form>
+
+
+{% if task %}
+<p>Назва: {{ task.task_name }}</p>
+<p>Опис: {{ task.description }}</p>
+<p>Дедлайн: {{ task.deadline }}</p>
+<p>Статус: {{ task.status }}</p>
+
+
+<form method="POST">
+    <input type="hidden" name="update_status" value="true">
+    <select name="status" required>
+        <option value="" disabled selected>Змінити статус:</option>
+        <option value="В прогресі">В прогресі</option>
+        <option value="Зроблено">Зроблено!</option>
+    </select>
+    <button type="submit">Оновити статус</button>
+</form>
+{% endif %}
+</body>
+</html>

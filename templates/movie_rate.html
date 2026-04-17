@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for m in movies %}
+<h1>Назва: {{ m.title }}</h1>
+<p>Оцінка: {{ m.rating }}</p>
+<p>Рік випуску: {{ m.year }}</p>
+<p>Головні актори:</p>
+<ul>
+    {% for a in m.main_actors %}
+        <li>{{ a }}</li>
+    {% endfor %}
+</ul>
+
+{% endfor %}
+</body>
+</html>

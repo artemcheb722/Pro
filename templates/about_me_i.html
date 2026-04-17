@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>About me</h1>
+<form method="POST">
+    <input type="text" name="name" placeholder="Введіть ім'я" required>
+    <input type="number" name="age" placeholder="Введіть свій вік" required>
+    <input type="text" name="hobbies" placeholder="Введіть свої хобі" required>
+    <button type="submit">Підтвердити</button>
+</form>
+
+{% if user %}
+    <p><strong>Ім'я: </strong>{{ user.user_name }}</p>
+    <p><strong>Вік: </strong>{{ user.age }}</p>
+    <p>Хобі:</p>
+    <ul>
+        {% for h in user.hobbies %}
+            <li>{{ h.strip() }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+</body>
+</html>
